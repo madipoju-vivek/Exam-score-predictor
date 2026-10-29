@@ -1,0 +1,30 @@
+{
+  "cleaning": {
+    "rows_before": 6607,
+    "duplicates_removed": 0,
+    "invalid_target_removed": 1,
+    "rows_after": 6606,
+    "missing_values": {
+      "Teacher_Quality": 78,
+      "Parental_Education_Level": 90,
+      "Distance_from_Home": 67
+    }
+  },
+  "train_rows": 5284,
+  "test_rows": 1322,
+  "final_model": "Linear Regression",
+  "intercept": 60.75785723027181,
+  "final_test_metrics": {
+    "MAE": 0.4102771335495981,
+    "MSE": 2.3037647936295844,
+    "RMSE": 1.517815797002253,
+    "R2": 0.8257919965237723
+  },
+  "final_train_metrics": {
+    "MAE": 0.499594083835068,
+    "MSE": 4.453195289167006,
+    "RMSE": 2.110259531234726,
+    "R2": 0.7106973529782055
+  },
+  "lasso_features_zeroed": 0
+}

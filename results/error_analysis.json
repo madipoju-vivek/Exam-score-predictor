@@ -1,0 +1,112 @@
+{
+  "residuals": {
+    "test_rows": 1322,
+    "test_errors_above_5": 5,
+    "test_share_within_1_mark": 0.9909228441754917,
+    "test_share_within_2_marks": 0.9962178517397882,
+    "test_mae_excluding_large_errors": 0.3237994600513368,
+    "test_rmse_excluding_large_errors": 0.3966652912142066,
+    "test_largest_error": 29.04201763344929,
+    "train_rows": 5284,
+    "train_errors_above_5": 44,
+    "train_largest_error": 29.93951942586247
+  },
+  "lasso_features_dropped_by_alpha": {
+    "0.001": [],
+    "0.01": [
+      "Gender",
+      "School_Type"
+    ],
+    "0.05": [
+      "Gender",
+      "School_Type",
+      "Sleep_Hours"
+    ],
+    "0.1": [
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "School_Type",
+      "Sleep_Hours"
+    ],
+    "0.2": [
+      "Extracurricular_Activities",
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "Physical_Activity",
+      "School_Type",
+      "Sleep_Hours",
+      "Teacher_Quality"
+    ],
+    "0.3": [
+      "Distance_from_Home",
+      "Extracurricular_Activities",
+      "Family_Income",
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "Motivation_Level",
+      "Peer_Influence",
+      "Physical_Activity",
+      "School_Type",
+      "Sleep_Hours",
+      "Teacher_Quality"
+    ],
+    "0.5": [
+      "Access_to_Resources",
+      "Distance_from_Home",
+      "Extracurricular_Activities",
+      "Family_Income",
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "Motivation_Level",
+      "Parental_Education_Level",
+      "Parental_Involvement",
+      "Peer_Influence",
+      "Physical_Activity",
+      "School_Type",
+      "Sleep_Hours",
+      "Teacher_Quality"
+    ],
+    "0.75": [
+      "Access_to_Resources",
+      "Distance_from_Home",
+      "Extracurricular_Activities",
+      "Family_Income",
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "Motivation_Level",
+      "Parental_Education_Level",
+      "Parental_Involvement",
+      "Peer_Influence",
+      "Physical_Activity",
+      "Previous_Scores",
+      "School_Type",
+      "Sleep_Hours",
+      "Teacher_Quality",
+      "Tutoring_Sessions"
+    ],
+    "1.0": [
+      "Access_to_Resources",
+      "Distance_from_Home",
+      "Extracurricular_Activities",
+      "Family_Income",
+      "Gender",
+      "Internet_Access",
+      "Learning_Disabilities",
+      "Motivation_Level",
+      "Parental_Education_Level",
+      "Parental_Involvement",
+      "Peer_Influence",
+      "Physical_Activity",
+      "Previous_Scores",
+      "School_Type",
+      "Sleep_Hours",
+      "Teacher_Quality",
+      "Tutoring_Sessions"
+    ]
+  }
+}
